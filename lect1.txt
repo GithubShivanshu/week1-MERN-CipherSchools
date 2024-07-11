@@ -1,0 +1,10 @@
+git config --global user.name "Shivanshu Pandey"
+
+git config --global user.email "shivanshupandey14@gmail.com"
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/GithubShivanshu/week1-MERN-CipherSchools.git
+git push -u origin main
