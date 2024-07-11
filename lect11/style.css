@@ -1,3 +1,8 @@
 body{
-    background-color: white;
+    background: lightyellow;
+}
+
+header{
+    background-color: salmon; 
+    color: azure;
 }
