@@ -1,40 +1,23 @@
-                                               All About GIT   Class 5
+**GITHUB Class-6 Overview**
 
--                                              Branching
+This class is about collaborating on projects using GitHub.
 
- ~ git checkout -b dev-1
- ~ git checkout master
- ~ git checkout -b dev-2
+**Creating a New Repository Using Commands**
 
- ~ git checkout dev-1 {Checkout to dev-1 branch}
- ~ git commit -m "message"
+1. `echo "# Testing_GITHUB" >> README.md`: This command creates a new README.md file and adds "# Testing_GITHUB" to it.
 
- ~ git checkout dev-2 {Checkout to dev-2 branch}
- ~ git add.
- ~ git commit -m "message"
+2. `git init`: This command initializes a new Git repository.
 
+3. `git add README.md`: This command stages the README.md file, preparing it for commit.
 
--                                             Merging
+4. `git commit -m "MESSAGE"`: This command commits the staged changes and provides a message describing the changes.
 
- ~ git merge dev-1
- ~ git branch
+5. `git branch -M main`: This command renames the current branch to 'main'.
 
- ~ git checkout dev-2
- ~ git checkout master
- ~ git merge dev-2
+6. `git remote add origin https://github.com/RajaCS5x/Repositary_Name.git`: This command adds a new remote repository named 'origin' at the specified URL.
 
- Click ESC
- :wq
- Click Enter
- 
- ~ git log --oneline
+7. `git push -u origin main`: This command pushes the commits in the 'main' branch to the 'origin' remote repository.
 
-                                     Switching from one branch to another
+**Working with an Existing Repository**
 
- ~ git checkout dev-1  [the branch switch from present to dev-1] 
-
-- Conflict means a change in the same lines or ame files.
-  
-                                            DELETING Branch
- ~ git branch -d {file-name}
- ` we can't delete master
+(Instructions to be provided)
